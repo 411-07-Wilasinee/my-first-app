@@ -18,7 +18,7 @@ if st.button("คำนวณค่า BMI"):
 
 # แปลงส่วนสูงจาก cm เป็น เมตร แล้วค่านวณ BMI
 
-height_m = height_cm / 100
+    height_m = height_cm / 100
 
 bmi = weight / (height_m** 2)
 
