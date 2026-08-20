@@ -22,7 +22,7 @@ if st.button("คำนวณค่า BMI"):
 
     bmi = weight / (height_m** 2)
 
-st.write(f"ค่า BMI ของคุณคือ {bmi:.2f})
+st.write(" ค่า BMI ของคุณคือ {bmi:.2f} ")
 
 st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 #ส่วนที่ 4 แปลผลค่า BMI ตามเกณฑ์
